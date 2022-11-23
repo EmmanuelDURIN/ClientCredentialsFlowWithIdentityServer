@@ -15,7 +15,7 @@ builder.Services.AddAuthentication("Bearer")
 
       options.TokenValidationParameters = new TokenValidationParameters
       {
-        ValidateAudience = false
+        ValidateAudience = true
       };
     });
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
